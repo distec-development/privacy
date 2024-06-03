@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para el mensaje de construcción */
+.construction-wrapper {
+  text-align: center;
+}
+
+.construction-icon {
+  width: 500px;
+  height: 500px;
+  background-image: url('logo.png');
+  /* Reemplaza 'construction-icon.png' con la ruta de tu propia imagen */
+  background-size: cover;
+  margin: 0 auto 20px;
+  animation: bounce 1s infinite alternate;
+  /* Animación */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Estilos para el aviso de privacidad */
+.image-container {
+  text-align: center;
+}
+
+.privacy-notice {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.privacy-notice h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.privacy-notice p {
+  margin-bottom: 15px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.privacy-notice strong {
+  font-weight: bold;
+}
